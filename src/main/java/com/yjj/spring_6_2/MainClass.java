@@ -18,7 +18,7 @@ public class MainClass {
 		System.out.println(stu1.getHeight());
 		System.out.println(stu1.getWeight());
 		
-		Student stu2 = ctx.getBean("student1", Student.class);
+		Student stu2 = ctx.getBean("student2", Student.class);
 		
 		System.out.println(stu2.getName());
 		System.out.println(stu2.getAge());
